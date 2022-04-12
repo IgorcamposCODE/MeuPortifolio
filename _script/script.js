@@ -9,4 +9,4 @@ function mudarTema() {
 
 window.setTimeout( function(){
     window.location.reload();
-}, 30000);
+}, 20000);
