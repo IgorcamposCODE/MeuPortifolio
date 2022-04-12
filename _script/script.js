@@ -4,3 +4,9 @@
 function mudarTema() {
     document.body.classList.toggle("dark")
 }
+
+// sistema de auto refresh
+
+window.setTimeout( function(){
+    window.location.reload();
+}, 30000);
