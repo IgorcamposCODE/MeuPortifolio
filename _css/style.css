@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(236.85deg, #0069CA 27.26%, #008B38 96.03%);
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+  }
+  
+  .container {
+    color: #1C1C1C;
+    background: #ECF4FF;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
+   }
+
+   .meu-cabeçalho{
+       display: flex;
+       justify-content: space-between;
+   }
+
+  .meuPerfil{
+      display: flex;   
+  }
+
+  .foto-de-perfil{
+      width: 158px;
+      border-radius: 460px;
+      max-height: 160px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .meuGitHub :hover{
+    box-shadow: 0px 4px 4px rgba(7, 173, 223, 0.884);
+  }
+
+  .meuGitHub img{
+    align-self: flex-end; 
+    line-height: 128px;
+    padding: 18px 26px;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 164px;
+    right: 142px;
+    top: 179px;
+   
+    filter: drop-shadow(0px 4px 4px rgba(153, 15, 165, 0.61));
+    border-radius: 430px;
+  }
+
+  .corpo-do-nome{
+      margin-left: 16px;
+  }
+
+  .corpo-do-nome h1 {
+      font-weight: 400;
+      font-size: 36px;
+  }
+
+  .corpo-do-nome h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema :hover{
+    box-shadow: 0px 4px 4px rgba(62, 64, 65, 0.884);
+    filter: drop-shadow(0px 4px 4px rgba(1, 1, 1, 1.25));
+}
+
+.tema button {
+    align-self: flex-end;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    padding: 8px 16px;
+
+    background: #69D8DF;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: #0E1D2F;
+}
+
+.meus-projetos {
+    
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(230.65deg, #990FA5 27.49%, #423A35 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    margin-top: 32px;
+    padding: 32px;
+}
+
+.titulo-projetos{
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+}
+
+.projetos-concluidos {
+    list-style-type: none;
+    margin-left: 32px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.projetos-concluidos a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #2162C2 27.26%, #31864E 96.03%);
+}
+
+.dark .container {
+    background: #4F5055;;
+    color: #F7F7F7;
+}
+
+.dark .meus-projetos{
+    background: linear-gradient(230.65deg, #980292 27.49%, #DFDFDF 83.19%);;
+    color: #1C1C1C;
+}
+
+.dark .tema button {
+    background: #69D8DF;
+    color: #FFFFFF;
+    border: 2px solid #F7F7F7;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
