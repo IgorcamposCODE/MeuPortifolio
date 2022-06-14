@@ -7,21 +7,21 @@ body {
     background: linear-gradient(236.85deg, rgba(153, 15, 165, 0.61) 27.26%, #0E1D2F 96.03%);
     font-family: 'Lobster', cursive;
     font-style: normal;
-    display: block;
+    display: flex;
    
 
   }
   
-  .container, .button {
+  .container {
     color: #1C1C1C;
     background: #ECF4FF;
-    margin-top: auto;
+    margin-top: 10;
     border-radius: 60px;
     box-shadow: 6px 6px 6px #0E1D2F;
     padding: 64px;
     margin-inline: auto;
     max-width: 1190px;
-    
+    display: block;
    }
 
    .meu-cabeçalho{
@@ -54,13 +54,13 @@ body {
     font-size: 24px;
 }
 
-.meu-button {
-  display: flexbox;
-   
-}
+
+
 
 .button {
-    align-self: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
     margin-top: auto;
     margin-inline: auto;
    
@@ -74,6 +74,8 @@ body {
     border-radius: 100px;
     color: #0E1D2F;
 }
+
+    
 
 
 
